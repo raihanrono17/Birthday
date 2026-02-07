@@ -6,6 +6,8 @@
 
 <style>
    body {
+      <div class="bg left-bg"></div>
+      <div class="bg right-bg"></div>
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
     color: #333;
