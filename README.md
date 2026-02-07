@@ -71,6 +71,11 @@
     button:hover {
         background: #e63956;
     }
+   <br><br>
+<a href="memories.html" style="color:#ff4d6d; font-weight:bold; text-decoration:none;">
+    Go to Our Memories →
+</a>
+
 
     footer {
         margin-top: 30px;
