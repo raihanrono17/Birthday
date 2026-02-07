@@ -83,19 +83,17 @@
 
 <div class="card">
     <div class="heart">❤️</div>
-    <h1>Happy Birthday, <span id="name">My Love</span></h1>
-    <h2>Today is all about you ✨</h2>
+    <h1>Happy Birthday,My Mumina!!</h1>
+    <h2>Today is all about youuu ✨</h2>
 
     <p id="message">
-        On this special day, I just want you to know how much you mean to me.
-        You make my days brighter, my smiles wider, and my life better.
-        I’m so grateful for you, today and always.
+        You might take my breath away with 18 letters. BUT I CAN DO YOU ONE BETTER WITH 18 WEBPAGES❤️
     </p>
 
     <button onclick="surprise()">Click for a surprise 🎁</button>
 
     <footer>
-        Made with love by me 💕
+        Made with love by Rono 💕
     </footer>
 </div>
 
