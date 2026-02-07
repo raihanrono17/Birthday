@@ -1,1 +1,115 @@
-# Birthday
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday ❤️</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        color: #333;
+        text-align: center;
+    }
+
+    .card {
+        background: white;
+        max-width: 600px;
+        margin: 80px auto;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        animation: fadeIn 2s ease;
+    }
+
+    h1 {
+        color: #ff4d6d;
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        margin-top: 10px;
+        font-weight: normal;
+    }
+
+    p {
+        font-size: 1.1rem;
+        line-height: 1.7;
+        margin-top: 20px;
+    }
+
+    .heart {
+        font-size: 3rem;
+        animation: pulse 1.5s infinite;
+    }
+
+    button {
+        margin-top: 30px;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 25px;
+        background: #ff4d6d;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #e63956;
+    }
+
+    footer {
+        margin-top: 30px;
+        font-size: 0.9rem;
+        opacity: 0.7;
+    }
+
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.2); }
+        100% { transform: scale(1); }
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <div class="heart">❤️</div>
+    <h1>Happy Birthday, <span id="name">My Love</span></h1>
+    <h2>Today is all about you ✨</h2>
+
+    <p id="message">
+        On this special day, I just want you to know how much you mean to me.
+        You make my days brighter, my smiles wider, and my life better.
+        I’m so grateful for you, today and always.
+    </p>
+
+    <button onclick="surprise()">Click for a surprise 🎁</button>
+
+    <footer>
+        Made with love by me 💕
+    </footer>
+</div>
+
+<script>
+    // CHANGE THESE
+    const herName = "Her Name Here";
+    const secretMessage = "You are my favorite person in the world. I love you more than words can say ❤️";
+
+    document.getElementById("name").innerText = herName;
+
+    function surprise() {
+        document.getElementById("message").innerText = secretMessage;
+    }
+</script>
+
+</body>
+</html>
