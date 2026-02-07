@@ -5,13 +5,24 @@
 <title>Happy Birthday ❤️</title>
 
 <style>
-    body {
-        margin: 0;
-        font-family: 'Segoe UI', sans-serif;
-        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-        color: #333;
-        text-align: center;
-    }
+   body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    text-align: center;
+    min-height: 100vh;
+
+    background:
+        linear-gradient(rgba(255,255,255,0.55), rgba(255,255,255,0.55)),
+        linear-gradient(
+            to right,
+            transparent 50%,
+            transparent 50%
+        ),
+        url("B1.png") left center / cover no-repeat,
+        url("B2.png") right center / cover no-repeat;
+}
+
 
     .card {
         background: white;
