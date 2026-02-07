@@ -101,8 +101,8 @@
 
 <script>
     // CHANGE THESE
-    const herName = "Her Name Here";
-    const secretMessage = "You are my favorite person in the world. I love you more than words can say ❤️";
+    const herName = "My Mumina";
+    const secretMessage = "You might take my breath away with 18 letters. BUT I CAN DO YOU ONE BETTER WITH 18 WEBPAGES❤️";
 
     document.getElementById("name").innerText = herName;
 
